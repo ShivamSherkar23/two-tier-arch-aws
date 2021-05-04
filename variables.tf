@@ -11,51 +11,51 @@ variable "ami_id" {
 }
 
 variable "associate_public_ip_address" {
-  default = true
+  default     = true
   description = ""
 }
 
 variable "allocated_storage" {
-  default = 5
+  default     = 5
   description = "database storage in GB"
 }
 
 variable "engine" {
-  default = "mysql"
+  default     = "mysql"
   description = "database engine for the RDS"
 }
 
 variable "name" {
-  default = "database2"
+  default     = "database2"
   description = "database name"
 }
 
 variable "instance_class" {
-  default = "db.t2.micro"
+  default     = "db.t2.micro"
   description = "database instance type"
 }
 
 variable "username" {
-  default = "admin"
+  default     = "admin"
   description = "database username"
 }
 
 variable "password" {
-  default = "password"
+  default     = "password"
   description = "database password"
 }
 
 variable "identifier" {
-  default = "database2"
+  default     = "database2"
   description = "database identifier name"
 }
 
 variable "rds_port" {
-  default = 3306
+  default     = 3306
   description = "port required by the sql engine"
 }
 
 variable "engine_version" {
-  default = "default.mysql5.7"
+  default = "5.7"
 }
 

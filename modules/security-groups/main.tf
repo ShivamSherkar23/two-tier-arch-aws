@@ -57,10 +57,10 @@ resource "aws_security_group" "database_sg" {
   vpc_id      = var.vpc_id
 
   ingress { # MySQL
-    from_port       = 3306
-    to_port         = 3306
-    protocol        = "tcp"
-    cidr_blocks     = ["10.0.2.0/24"]
+    from_port   = 3306
+    to_port     = 3306
+    protocol    = "tcp"
+    cidr_blocks = ["10.0.2.0/24"]
   }
 
   ingress {
