@@ -1,7 +1,3 @@
-provider "aws" {
-  region = var.aws_region
-}
-
 module "my_vpc" {
   source     = "./modules/vpc"
   aws_region = var.aws_region

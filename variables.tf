@@ -3,11 +3,11 @@ variable "aws_region" {
 }
 
 variable "aws_key_name" {
-  default = "shivamkp"
+  default = "terraform"
 }
 
 variable "ami_id" {
-  default = "ami-042e8287309f5df03"
+  default = "ami-09e67e426f25ce0d7"
 }
 
 variable "associate_public_ip_address" {
